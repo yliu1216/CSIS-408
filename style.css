@@ -1,0 +1,213 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+  background-color: #303030;
+  background-image: url('images/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 0px 0px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+    
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.cell {
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #000;
+  border-radius: 100px;
+}
+
+.circles {
+  margin: -40px 0 25px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.red-sm {
+  background-color: red;
+}
+
+.yellow-sm {
+  background-color: yellow;
+}
+
+.message {
+  text-align: center;
+  font-size: 17px;
+  color: white;
+}
+
+.white {
+  height: 60px;
+  width: 60px;
+  background-color: #FFF;
+  border-radius: 100px;
+}
+
+.red {
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  border-radius: 100px;
+  transition: background-color 0.5s;
+}
+
+.yellow {
+  height: 60px;
+  width: 60px;
+  background-color: yellow;
+  border-radius: 100px;
+  transition: background-color 0.5s;
+}
+.pic{
+    z-index: 20;
+   
+}
+.pics{
+    border: #fff solid 3px;
+    margin-left: 390px;
+    margin-top: 100px;
+    opacity: 0.9;
+    height: 100%;
+    width: 60%;
+    border-radius: 20px;
+        
+   
+}
+
+.title{
+  color: white;
+}
+
+.title img{
+  height: 200px;
+  width: 500px;
+}
+
+
+#myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+    z-index: -5;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.go{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    color: red;
+    z-index: 50;
+    font-size: 53px;
+    margin-top: -200px;
+    margin-left: 30px;
+}
+blink {
+  -webkit-animation: .5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: .8s linear infinite condemned_blink_effect;
+    
+}
+@-webkit-keyframes condemned_blink_effect { 
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.restart{
+    margin-top: 150px;
+    margin-left: 850px;
+    font-size: 20px;
+    background-color: rgb(60,118,196);
+    color: white;
+    border-radius: 1px white solid;
+   width: 200px;
+    height: 50px;
+    
+    
+}
+
+.pic{
+width:150px;
+height: 200px;
+margin-bottom:25px;
+text-align: center;
+
+}
+
+.pic img{
+    margin-top: 5px;
+margin-left: 6px;
+width:150px;
+height: 150px;
+    align-items: center;
+    text-align: center;
+}
+
